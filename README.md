@@ -1,6 +1,9 @@
 Initializing the Docker Container
 =====
 
+// Run npm install first to grab necessary libraries
+npm install
+
 docker build -t jpangilinan/node-app .
 docker run jpangilinan/node-app
 -or-
