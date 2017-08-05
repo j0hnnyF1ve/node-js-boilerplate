@@ -10,6 +10,8 @@ docker-compose up
 docker ps
 docker exec -it <container id> /bin/bash
 
+// Place static files into the public folder
+
 Libraries
 =====
 Handlebars for Express.js
